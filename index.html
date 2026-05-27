@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I built a shortcut to rewrite text in Notion</title>
+<meta name="description" content="How I set up a keyboard shortcut to paraphrase and summarize selected text inside Notion without leaving the page.">
+<link rel="canonical" href="https://belikenative.com/paraphrase-summarize-selected-text-notion/">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.7;color:#333;background:#fff}
+h1{font-size:1.8em;line-height:1.3;margin-bottom:8px}
+h2{font-size:1.4em;margin-top:32px}
+h3{font-size:1.2em;margin-top:24px}
+p{margin:16px 0}
+a{color:#2563eb;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{padding-left:24px}
+li{margin:8px 0}
+.source{color:#666;font-size:14px;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #eee}
+.footer{margin-top:40px;padding-top:20px;border-top:1px solid #eee;color:#666;font-size:14px}
+</style>
+</head>
+<body>
+<article>
+<h1>I built a shortcut to rewrite text in Notion</h1>
+<div class="source">Originally published at <a href="https://belikenative.com/paraphrase-summarize-selected-text-notion/">belikenative.com/paraphrase-summarize-selected-text-notion</a></div>
+<p>I was editing a long project doc in Notion last month and caught myself repeating the same six-step loop: copy text, open an AI tool in another tab, paste, wait, copy the result, switch back to Notion. For one paragraph, it's annoying. For a whole document, it's a real time sink. Full disclosure: I built <a href="https://belikenative.com">BeLikeNative</a>, a free Chrome extension for real-time grammar and writing help. Take my perspective accordingly.</p>
+<p>The idea behind <a href="https://belikenative.com">BeLikeNative</a> is simple. You highlight text in Notion, press a keyboard shortcut, and the rewritten version lands on your clipboard. Then you paste it right back. No tab switching, no copy-paste gymnastics.</p>
+<h2>The clipboard shortcut approach</h2>
+<p>Most AI writing tools make you leave your workspace. You paste text into their interface, fiddle with settings, copy the output, then go back to where you were working. That context switch feels small each time but compounds quickly over a full workday.</p>
+<p>I wanted something different. <a href="https://belikenative.com">BeLikeNative</a> runs as a Chrome extension that sits in your browser toolbar. It hooks into whatever text you select on the page, processes it, and puts the result straight onto your clipboard. The whole interaction takes a few seconds and you never leave Notion.</p>
+<p>It handles two main tasks: paraphrasing (rewording your text while keeping the meaning) and summarizing (condensing longer passages into shorter ones). Both work through the same highlight-and-shortcut pattern.</p>
+<h2>Setting it up</h2>
+<p>Installation takes about two minutes. Search for <a href="https://belikenative.com">BeLikeNative</a> in the Chrome Web Store or go directly to the <a href="https://belikenative.com/browser-extension/">extension page</a>. Click "Add to Chrome" and confirm. You'll see a green icon appear in your toolbar.</p>
+<p>Click that icon to open the settings. You can pick your preferred language, tone, and writing style right away. I'd recommend spending a minute on the keyboard shortcuts section too, since those shortcuts are how you'll interact with the tool most of the time.</p>
+<p>The default shortcut for summarizing is Alt+4. For paraphrasing, there's a separate default binding. If you're on a paid plan, you can reassign these to whatever key combination feels natural. I ended up mapping mine to shortcuts I wasn't already using for anything else.</p>
+<h2>Paraphrasing and summarizing in practice</h2>
+<p>Here's the actual workflow. Say you have a dense paragraph in a Notion doc that needs to be more concise. Highlight it, press your summarize shortcut (Alt+4 by default), and wait a second or two. A small "Text Copied" confirmation appears. Press Ctrl+V to paste the condensed version back into Notion.</p>
+<p>Paraphrasing works the same way. Select text, hit the paraphrase shortcut, paste the result. I use this most often when I'm editing docs that feel too stiff or repetitive. It's faster than rewriting by hand, especially for longer sections.</p>
+<p>One thing I noticed is that the tool respects the tone and style settings you've configured. Set it to "formal" for a client proposal and the output matches that register. Switch to "casual" for internal team notes and the rewrites shift accordingly. There are 15 tone options and 15 style presets, so you can get fairly specific about the voice you want.</p>
+<h2>Working across languages</h2>
+<p><a href="https://belikenative.com">BeLikeNative</a> supports over 80 languages, which turned out to be more useful than I originally expected. I've seen users highlight Spanish text in Notion, run the paraphrase shortcut, and get polished Spanish back. Same process works for French, German, Japanese, and Arabic.</p>
+<p>For teams that work across multiple languages, this means you don't need separate tools for each one. You switch the target language in settings and keep working in the same Notion doc. A colleague of mine manages bilingual project docs (English and Portuguese for a team split between New York and Sao Paulo) and uses it to keep both versions consistent in tone.</p>
+<p>Switching languages takes a few clicks in the settings menu. No need to install separate extensions or configure anything per-language.</p>
+<h2>Pricing and what you get</h2>
+<p>The free plan gives you 25 daily uses with a 1,000 character limit per operation. That's enough for quick sentence-level edits or testing whether the tool fits your workflow.</p>
+<p>The Learner plan ($4/month) bumps you to 50 daily uses and a higher character limit, plus you can customize shortcuts and edit function behaviors. The Native plan ($6/month) goes to 125 daily uses with priority processing speed. And the Premium plan ($14/month) gives the highest character limits (10,000 characters per operation) along with partnership perks for long-term users.</p>
+<p>For Notion specifically, the character limit matters most. If you're working with long documents, you may need to process them in sections on the free tier. On the paid plans, you can handle much larger text blocks in one pass. I'd suggest tracking your actual usage for a week before deciding which tier makes sense for you.</p>
+<h2>The Notion-specific advantage</h2>
+<p>Notion has some built-in AI features, but they work differently. <a href="https://belikenative.com">BeLikeNative</a> operates at the browser level, so it works with any text field in Notion, including databases, templates, and plain text pages. It also plays well with Notion's version history and collaborative editing since you're just pasting text like normal.</p>
+<p>The shortcut-based workflow fits naturally into how most people already use Notion. No sidebar to open, no menu to click through. Highlight, shortcut, paste. That's the whole loop.</p>
+<p>I've found it most useful for three specific tasks: cleaning up rough draft paragraphs, condensing meeting notes into action items, and rewording content before sharing it externally. Those three cover probably 80% of my paraphrasing and summarizing needs in Notion.</p>
+<p>The next feature I'm working on is better handling of structured content like tables and bullet lists, so the tool can preserve formatting more reliably during rewrites.</p>
+<p>I build <a href="https://belikenative.com">BeLikeNative</a>, a free Chrome extension that helps you write better English anywhere on the web. No signup, no data collection.</p>
+<div class="footer">
+<p>Read the original at <a href="https://belikenative.com/paraphrase-summarize-selected-text-notion/">belikenative.com/paraphrase-summarize-selected-text-notion</a></p>
+<p><a href="https://belikenative.com">BeLikeNative</a> is a free Chrome extension for real-time grammar checking and writing improvement.</p>
+</div>
+</article>
+</body>
+</html>
